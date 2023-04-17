@@ -1,0 +1,56 @@
+body{
+    background-color: #000050;
+}
+nav{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25pt;
+    font-weight: bold;
+    color: #000050;
+    background-color: whitesmoke;
+    height: 20%;
+}
+.left-images{
+    float: left;
+    width: 48%;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.right-images{
+    float: right;
+    width: 48%;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+h1, h2{
+    color: white;
+    text-align: center;   
+}
+a:link, :visited{
+    text-decoration: none;
+    color: white;
+    background-color: white;
+}
+.otheras:link, :visited{
+    color: #000050;
+}
+a:hover{
+    color: blue;
+    background-color: red;
+    border-radius: 5px;
+    transition-duration: 0.6s;
+}
+p{
+    color: white;
+    margin: 20%;
+    margin-top: 0%;
+}
+summary{
+    font-size: larger;
+    color: blue;
+    background-color: white;
+    width: 35%;
+    border-radius: 5px;
+}
